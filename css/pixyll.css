@@ -232,7 +232,6 @@ h1,
 h2,
 h3 {
   font-family: "Play", 'Helvetica Neue', Helvetica, sans-serif;
-  text-align: center;
   font-weight: 900;
   margin-top: 3rem;
 }
@@ -325,6 +324,7 @@ h6 {
   h2 {
     font-size: 3rem;
     line-height: 3.5rem;
+    text-align: center;
   }
 
   .posts .post-meta {
