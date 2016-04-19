@@ -1,0 +1,10 @@
+excerpt_separator: ""
+pygments: true
+markdown: kramdown
+url: http://zuologio.github.io
+title: g10
+email: zuologio@hotmail.com
+author: g10
+description: my personal dev blog
+paginate: 3
+google_analytics: UA-76625024-1
