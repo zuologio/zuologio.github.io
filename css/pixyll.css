@@ -110,7 +110,6 @@ body {
   margin-top: 0;
   font-weight: 600;
   color: #333;
-  text-align: center;
 }
 
 .pagination,
@@ -233,6 +232,7 @@ h1,
 h2,
 h3 {
   font-family: "Play", 'Helvetica Neue', Helvetica, sans-serif;
+  text-align: center;
   font-weight: 900;
   margin-top: 3rem;
 }
