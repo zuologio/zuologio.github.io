@@ -1,6 +1,6 @@
 ---
 published: true
-title: Time what is time
+title: TIME WHAT IS TIME
 layout: post
 ---
 Così titolava la opener di uno dei miei album preferiti dei Blind Guardian “Somewhere far beyond” uscito nel lontano 1992 che riprendeva i temi affrontati dal film capolavoro di Ridley Scott “Blade Runner”. 
@@ -13,7 +13,4 @@ La mia strana creatura g10cast che non ho ancora testato a dovere su windows pho
 Il mio nuovo amore per git e github. Ho migrato il blog da wordpress a tinypress... volevo che anche il mio blog fosse versionato! Sto inoltre giocando con gitlab e il suo sistema di build automatizzate funzionante out of the box. 
 Complice K ho provato (con un filtro di sua invenzione) a fare qualche divertente esperimento di “analisi” del traffico di rete in una LAN... e quante idee mi sono venute!
 Ogni giorno poi trovo link, progetti, snippet di codice che salvo tra i preferiti del browser e che mi ripropongo di guardare e studiare. Chissà quante cose potrei farci mi ripeto, ma poi il tempo è quello che è. Il lavoro invade spazi non suoi, la famiglia esige tutti i suoi legittimi spazi. Resta la notte. 
-E “time what is time” come dice la canzone è un privilegio per i replicanti che sono immortali e per i quali il tempo non ha valore...  
-
-
- 
+E “time what is time” come dice la canzone è un privilegio per i replicanti che sono immortali e per i quali il tempo non ha valore...
