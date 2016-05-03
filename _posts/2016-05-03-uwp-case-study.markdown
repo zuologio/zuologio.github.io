@@ -15,14 +15,14 @@ Ad un certo punto è arrivata l'idea: un sistema per caricare, utilizzando un de
 
 Ho quindi strutturato l'app sviluppando tre componenti:
 1) un sito web di presentazione dell'app e che al tempo stesso è il backend per l'associazione degli url ai vari dispositivi dell'utente (ho usato un azure website)
-2) un'app universale che, dopo il login si limita a mostrare l'url impostato dal sito
+2) un'app universale che dopo il login si limita a mostrare l'url impostato dal sito
 3) un layer di servizi utilizzato sia dall'app che dal sito (ho usato gli azure mobile services)
 
 Ho infatti pensato di risolvere le debolezze con le quali mi ero scontrato in passato utilizzando windows azure: ho creato rapidamente il sito per la mia app e ho di fatto annullato tutti i problemi sistemistici dell'hosting tradizionale utilizzando il cloud!
 Nello sviluppo ho scelto di usare Entity Framework 6.1 come orm e me ne sono innamorato (l'ultima mia esperienza era con la versione 4 e il suo odioso file edmx...). 
 
 Ho pubblicato l'app nello store di microsoft pochi giorni dopo l'uscita ufficiale del'os! 
-La prima versione si basava su un ciclo infinito in cui periodicamente l'app si incaricava di capire se l'url da visualizzare era cambiato oppure no. Dopo un po' ho rilasciato una nuova versione basasta sull'engine di push notifications messo a disposizione da azure. In questo modo la variazione dell'url sul sito viene notificata ai device senza che questi ultimi debbano costantemente restare in ascolto (con conseguente aumento di performance, riduzione dell'utilizzo di batteria e dei tempi di aggiornamento dell'url). 
+La prima versione si basava su un ciclo infinito in cui periodicamente l'app si incaricava di capire se l'url da visualizzare era cambiato oppure no. Dopo un po' ho rilasciato una nuova versione basasta sull'engine di push notifications messo a disposizione da azure. In questo modo la variazione dell'url sul sito viene notificata ai device senza che questi ultimi debbano costantemente interrogare il db (con conseguente aumento di performance, riduzione dell'utilizzo di batteria e dei tempi di aggiornamento dell'url). 
 
 Windows 10 per xbox one deve ancora uscire (uscirà a breve), quindi il device più direttamente interessato dal mio progettino era il raspberry pi 2. Ho seguito il lancio di windows 10 iot con grande interesse. Ho inziato subito a provare il debug remoto della mia app all'intero della shell di questa particolare release di windows il cui limite principale è l'assenza dell'accesso allo store. Al fine di sopperire a questo limite ho creato un'immagine custom del sistema operativo con preinstallato il mio applicativo che parte automaticamente al termine della fase di boot (!). Ho quindi reso disponile all'interno del sito della app il download dell'immagine custom di windows 10 iot completando l'offerta di microsoft al di fuori dello store.
 
@@ -30,5 +30,4 @@ Ho testato quindi la mia app su pc e su tv (con un raspberry collegato). La UI �
 
 Da fine ottobre 2015 ho chiuso, dopo aver implementato una serie di funzionalità minori, lo sviluppo di questo progetto. Ho visto e imparato un sacco... che l'app serva a qualcuno è oggettivamente secondario. Ho iniziato a fare altro.
 
-Una settimana fa, dopo mesi di attesa ho ricevuto l'aggiornamento a windows 10 sul mio telefono. Ho scaricato subito la mia app e funziona divinamente. Le cose fatte bene durano!   
- 
+Una settimana fa, dopo mesi di attesa ho ricevuto l'aggiornamento a windows 10 sul mio telefono. Ho scaricato subito la mia app e funziona divinamente. Le cose fatte bene durano!
